@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home | Bloom&Petal</title>
+<link rel="stylesheet" href="style.css">
+ <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+
+<header>
+  <div class="container navbar">
+    <a class="logo" href="index.html">Bloom<span>&</span>Petal</a>
+    <button class="icon-btn menu-toggle" aria-label="Open menu">☰</button>
+    <nav class="nav-links">
+      <a class="active" href="index.html">Home</a>
+      <a class="" href="menu.html">Bouquets</a>
+      <a class="" href="cart.html">Cart <span data-cart-count></span></a>
+      <a class="" href="login.html">Login</a>
+    </nav>
+    <div class="nav-actions">
+      <a class="btn btn-primary btn-small" href="registration.html">Create account</a>
+    </div>
+  </div>
+</header>
+
+
+<main>
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <span class="eyebrow">Fresh flowers • Happy moments</span>
+      <h1>Flowers that make every moment feel <em>special.</em></h1>
+      <p>Hand-tied bouquets designed with soft colours, seasonal blooms and a little extra love.</p>
+      <div class="hero-buttons">
+        <a class="btn btn-primary" href="menu.html">Shop bouquets →</a>
+        <a class="btn btn-light" href="#featured">View favourites</a>
+      </div>
+    </div>
+    <div class="hero-image">
+      <img src="WhatsApp Image 2026-08-13 at 9.53.33 AM.jpeg" alt="Pastel tulip bouquet">
+      <div class="floating-note">♡ Carefully wrapped & ready to gift</div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="featured">
+  <div class="container">
+    <div class="section-head">
+      <div><span class="eyebrow">Our favourites</span>
+        <h2>Pick your perfect bouquet</h2>
+      </div>
+      <p>From soft tulips to cheerful sunflowers, choose a style that matches the moment.</p>
+    </div>
+    <div class="products">
+      <article class="card"><div class="card-img">
+        <img src="images/zzzzzzzzzzzz.jpeg" alt="Pastel tulips">
+      </div>
+        <div class="card-body">
+        <h3>Pastel Dream</h3>
+        <p>Soft tulips in pink, lavender and cream.</p>
+        <div class="price-row"><span class="price">₹1,499</span>
+          <button class="btn btn-primary btn-small" onclick="addToCart('Pastel Dream',1499,'assets/bouquet1.jpg')">Add</button>
+        </div></div></article>
+      <article class="card"><div class="card-img">
+        <img src="WhatsApp Image 2026-08-13 at 9.53.33 AM (1).jpeg" alt="Sunflower bouquet">
+      </div>
+      <div class="card-body">
+        <h3>Sunny Smile</h3>
+        <p>Bright sunflowers with fresh green foliage.</p>
+        <div class="price-row"><span class="price">₹1,299</span>
+          <button class="btn btn-primary btn-small" onclick="addToCart('Sunny Smile',1299,'assets/bouquet2.jpg')">Add</button>
+        </div>
+      </div>
+    </article>
+      <article class="card"><div class="card-img">
+        <img src="WhatsApp Image 2026-08-13 at 9.53.33 AM (2).jpeg" alt="Red rose bouquet">
+      </div>
+      <div class="card-body">
+        <h3>Ruby Roses</h3>
+        <p>Classic red roses with delicate baby's breath.</p>
+        <div class="price-row"><span class="price">₹1,799</span>
+          <button class="btn btn-primary btn-small" onclick="addToCart('Ruby Roses',1799,'assets/bouquet3.jpg')">Add</button></div>
+        </div>
+      </article>
+      <article class="card"><div class="card-img">
+        <img src="WhatsApp Image 2026-08-13 at 9.53.33 AM (3).jpeg" alt="Colourful mixed bouquet">
+      </div>
+      <div class="card-body">
+        <h3>Colour Story</h3>
+        <p>A joyful mix of colourful seasonal flowers.</p>
+        <div class="price-row"><span class="price">₹1,599</span>
+          <button class="btn btn-primary btn-small" onclick="addToCart('Colour Story',1599,'assets/bouquet4.jpg')">Add</button></div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="background:#f7eee7">
+  <div class="container about-grid">
+    <img src="images/yyyyyyyyyyyyyy.jpeg" alt="Colourful seasonal flower bouquet">
+    <div class="about-copy">
+      <span class="eyebrow">Made for moments</span>
+      <h2>A little colour can change the whole day.</h2>
+      <p>Our bouquets are inspired by warm, gentle styling: natural paper wraps, soft ribbons and flowers that feel effortless.</p>
+      <p>Whether it is a birthday, a thank-you, a celebration or simply “thinking of you”, there is a bouquet waiting.</p>
+      <a class="btn btn-primary" href="menu.html">Explore the collection</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head"><div>
+      <span class="eyebrow">Why Bloom&Petal</span>
+      <h2>Simple. Fresh. Thoughtful.</h2>
+    </div>
+  </div>
+    <div class="features">
+      <div class="feature"><div class="emoji">🌷</div>
+      <h3>Fresh blooms</h3>
+      <p>Beautiful flowers selected to keep your bouquet looking vibrant.</p>
+    </div>
+      <div class="feature"><div class="emoji">🎀</div>
+      <h3>Gift-ready</h3>
+      <p>Every bouquet is wrapped with a soft, elegant presentation.</p>
+    </div>
+      <div class="feature"><div class="emoji">💌</div>
+      <h3>Your message</h3>
+      <p>Add a personal note to make your gift feel even more special.</p>
+    </div>
+    </div>
+  </div>
+</section>
+</main>
+<!-- ================= FOOTER ================= -->
+
+<footer class="footer">
+
+  <div class="container">
+
+    <div class="footer-grid">
+
+
+      <!-- Brand -->
+
+      <div class="footer-column">
+
+        <a class="logo footer-logo"
+          href="index.html">
+          Bloom<span>&</span>Petal
+        </a>
+
+        <p>
+          Beautiful flowers for beautiful moments.
+          Fresh bouquets made with love and care.
+        </p>
+
+
+        <!-- Social Media Symbols -->
+
+        <div class="social-icons">
+
+          <!-- Facebook -->
+
+          <a href="#"
+            aria-label="Facebook">
+            <i class="bi bi-facebook"></i>
+          </a>
+
+
+          <!-- Instagram -->
+
+          <a href="#"
+            aria-label="Instagram">
+            <i class="bi bi-instagram"></i>
+          </a>
+
+
+          <!-- Google -->
+
+          <a href="#"
+            aria-label="Google">
+            <i class="bi bi-google"></i>
+          </a>
+
+
+          <!-- YouTube -->
+
+          <a href="#"
+            aria-label="YouTube">
+            <i class="bi bi-youtube"></i>
+          </a>
+
+
+          <!-- WhatsApp -->
+
+          <a href="#"
+            aria-label="WhatsApp">
+            <i class="bi bi-whatsapp"></i>
+          </a>
+
+        </div>
+
+      </div>
+
+
+      <!-- Quick Links -->
+
+      <div class="footer-column">
+
+        <h3>
+          Quick Links
+        </h3>
+
+        <a href="index.html">
+          Home
+        </a>
+
+        <a href="menu.html">
+          Bouquets
+        </a>
+
+        <a href="cart.html">
+          Cart
+        </a>
+
+        <a href="login.html">
+          Login
+        </a>
+
+      </div>
+
+
+      <!-- Account -->
+
+      <div class="footer-column">
+
+        <h3>
+          Account
+        </h3>
+
+        <a href="login.html">
+          Login
+        </a>
+
+        <a href="registration.html">
+          Create Account
+        </a>
+
+        <a href="cart.html">
+          My Cart
+        </a>
+
+      </div>
+
+
+      <!-- Contact -->
+
+      <div class="footer-column">
+
+        <h3>
+          Contact Us
+        </h3>
+
+        <p>
+          <i class="bi bi-geo-alt-fill"></i>
+          Chennai, India
+        </p>
+
+        <p>
+          <i class="bi bi-envelope-fill"></i>
+          support@bloomandpetal.com
+        </p>
+
+        <p>
+          <i class="bi bi-telephone-fill"></i>
+          +91 90000 00000
+        </p>
+
+        <p>
+          <i class="bi bi-clock-fill"></i>
+          Mon - Sun: 9 AM - 8 PM
+        </p>
+
+      </div>
+
+
+    </div>
+
+
+    <hr>
+
+
+    <!-- Copyright -->
+
+    <div class="footer-bottom">
+
+      <p>
+        © 2026 Bloom&Petal. All rights reserved.
+      </p>
+
+      <p>
+        Made with ♡ for flower lovers
+      </p>
+
+    </div>
+
+  </div>
+
+</footer>
+
+
+
+</body>
+</html>

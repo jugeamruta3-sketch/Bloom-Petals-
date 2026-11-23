@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Cart | Bloom&Petal</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+        integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header>
+        <div class="container navbar">
+            <a class="logo" href="index.html">Bloom<span>&</span>Petal</a>
+            <button class="icon-btn menu-toggle" aria-label="Open menu">☰</button>
+            <nav class="nav-links">
+                <a class="" href="index.html">Home<i class="fa-solid fa-house"></i></a>
+                <a class="" href="menu.html">Bouquets<i class="fa-solid fa-bars"></i></a>
+                <a class="" href="cart.html">cart<i class="fa-solid fa-cart-arrow-down"></i></a>
+                <a class="" href="login.html">Login<i class="fa-solid fa-users"></i></a>
+            </nav>
+            <div class="nav-actions">
+                <a class="btn btn-primary btn-small" href="registration.html">Create account</a>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- ================= MAIN ================= -->
+
+    <main>
+
+        <!-- PAGE HERO -->
+
+        <section class="page-hero">
+
+            <div class="container">
+
+                <span class="eyebrow">
+                    <i class="bi bi-flower1"></i>
+                    Your selections
+                </span>
+
+                <h1>
+                    Shopping Cart
+                </h1>
+
+                <p>
+                    Review your beautiful bouquets before
+                    placing your demo order.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CART SECTION ================= -->
+
+        <section class="section">
+
+            <div class="container cart-wrap">
+
+
+                <!-- ================= LEFT SIDE - PRODUCTS ================= -->
+
+                <div class="cart-list" id="cartList">
+
+
+                    <!-- PRODUCT 1 -->
+
+                    <div class="cart-item">
+
+                        <img src="images/crt 1.png" class="cart-product-img">
+
+                        <div class="cart-product-info">
+
+                            <h3>
+                                Classic Rose Bouquet
+                            </h3>
+
+                            <p class="cart-description">
+                                Fresh red roses beautifully arranged
+                                with seasonal greenery.
+                            </p>
+
+                            <div class="cart-product-bottom">
+ <strong class="product-price">
+                                    ₹1500
+                                </strong>
+
+
+                                <!-- Quantity -->
+
+                                <div class="quantity">
+
+                                    <button type="button">
+                                        <i class="bi bi-dash"></i>
+                                    </button>
+
+                                    <span>
+                                        1
+                                    </span>
+
+                                    <button type="button">
+                                        <i class="bi bi-plus"></i>
+                                    </button>
+
+                                </div>
+
+
+                                <!-- Remove -->
+
+                                <button class="remove-btn" type="button">
+                                    <i class="bi bi-trash3"></i>
+                                    Remove
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- PRODUCT 2 -->
+
+                    <div class="cart-item">
+
+                        <img src="images/cart 2.png" alt="Sunny Sunflower Bouquet" class="cart-product-img">
+
+                        <div class="cart-product-info">
+
+                            <h3>
+                                Sunny Sunflower Bouquet
+                            </h3>
+
+                            <p class="cart-description">
+                                Bright sunflowers arranged to bring
+                                warmth and happiness.
+                            </p>
+
+                            <div class="cart-product-bottom">
+
+                                <strong class="product-price">
+                                    ₹1200
+                                </strong>
+
+
+                                <!-- Quantity -->
+
+                                <div class="quantity">
+
+                                    <button type="button">
+                                        <i class="bi bi-dash"></i>
+                                    </button>
+
+                                    <span>
+                                        1
+                                    </span>
+
+                                    <button type="button">
+                                        <i class="bi bi-plus"></i>
+                                    </button>
+
+                                </div>
+
+
+                                <!-- Remove -->
+
+                                <button class="remove-btn" type="button">
+                                    <i class="bi bi-trash3"></i>
+                                    Remove
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- PRODUCT 3 -->
+
+                    <div class="cart-item">
+
+                        <img src="images/cart 3.png" class="cart-product-img">
+
+                        <div class="cart-product-info">
+
+                            <h3>
+                                Pink Blossom Bouquet
+                            </h3>
+
+                            <p class="cart-description">
+                                Soft pink flowers arranged in an
+                                elegant bouquet.
+                            </p>
+
+                            <div class="cart-product-bottom">
+
+                                <strong class="product-price">
+                                    ₹1800
+                                </strong>
+
+
+                                <!-- Quantity -->
+
+                                <div class="quantity">
+
+                                    <button type="button">
+                                        <i class="bi bi-dash"></i>
+                                    </button>
+
+                                    <span>
+                                        1
+                                    </span>
+
+                                    <button type="button">
+                                        <i class="bi bi-plus"></i>
+                                    </button>
+
+                                </div>
+
+
+                                <!-- Remove -->
+
+                                <button class="remove-btn" type="button">
+                                    <i class="bi bi-trash3"></i>
+                                    Remove
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- ================= ORDER SUMMARY ================= -->
+
+                <aside class="summary">
+
+                    <h2>
+                        <i class="bi bi-receipt"></i>
+                        Order Summary
+                    </h2>
+
+
+                    <!-- Subtotal -->
+
+                    <div class="summary-row">
+
+                        <span>
+                            Subtotal
+                        </span>
+
+                        <strong id="subtotal">
+                            ₹4500
+                        </strong>
+
+                    </div>
+
+
+                    <!-- Delivery -->
+
+                    <div class="summary-row">
+
+                        <span>
+                            Delivery
+                        </span>
+
+                        <span>
+                            Free
+                        </span>
+
+                    </div>
+
+
+                    <!-- Total -->
+
+                    <div class="summary-row summary-total">
+
+                        <span>
+                            Total
+                        </span>
+
+                        <strong id="total">
+                            ₹4500
+                        </strong>
+
+                    </div>
+
+
+                    <!-- Checkout Button -->
+
+                    <button class="btn btn-primary checkout-btn" id="checkoutBtn">
+                        <i class="bi bi-credit-card"></i>
+                        Continue to Checkout
+                    </button>
+
+
+                    <!-- Continue Shopping -->
+
+                    <a href="menu.html" class="continue-shopping">
+                        <i class="bi bi-arrow-left"></i>
+                        Continue Shopping
+                    </a>
+
+                </aside>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+        <div class="container footer-grid">
+
+
+            <!-- ================= BRAND ================= -->
+
+            <div class="footer-brand">
+
+                <a class="logo" href="index.html">
+                    Bloom<span>&</span>Petal
+                </a>
+
+                <p>
+                    Beautiful flowers, thoughtfully arranged
+                    for every special moment.
+                </p>
+
+
+                <!-- Social Icons -->
+
+                <div class="social-icons">
+
+                    <a href="#" aria-label="Instagram">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+
+                    <a href="#" aria-label="Facebook">
+                        <i class="bi bi-facebook"></i>
+                    </a>
+
+                    <a href="#" aria-label="Pinterest">
+                        <i class="bi bi-pinterest"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- ================= QUICK LINKS ================= -->
+
+            <div class="footer-column">
+
+                <h3>
+                    Quick Links
+                </h3>
+
+                <a href="index.html">
+                    Home
+                </a>
+
+                <a href="menu.html">
+                    Bouquets
+                </a>
+
+                <a href="cart.html">
+                    Cart
+                </a>
+
+                <a href="login.html">
+                    Login
+                </a>
+
+            </div>
+
+
+            <!-- ================= CUSTOMER CARE ================= -->
+
+            <div class="footer-column">
+
+                <h3>
+                    Customer Care
+                </h3>
+
+                <a href="#">
+                    Contact Us
+                </a>
+
+                <a href="#">
+                    Delivery Information
+                </a>
+
+                <a href="#">
+                    Privacy Policy
+                </a>
+
+                <a href="#">
+                    Terms & Conditions
+                </a>
+
+            </div>
+
+
+            <!-- ================= CONTACT ================= -->
+
+            <div class="footer-column">
+
+                <h3>
+                    Contact
+                </h3>
+
+                <p>
+                    <i class="bi bi-geo-alt"></i>
+                    Mumbai, India
+                </p>
+
+                <p>
+                    <i class="bi bi-envelope"></i>
+                    hello@bloomandpetal.com
+                </p>
+
+                <p>
+                    <i class="bi bi-telephone"></i>
+                    +91 98765 43210
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- ================= FOOTER BOTTOM ================= -->
+
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 Bloom&Petal.
+                All rights reserved.
+            </p>
+
+            <p>
+                Made with
+                <i class="bi bi-heart-fill"></i>
+                for flower lovers.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- ================= TOAST ================= -->
+
+    <div class="toast"></div>
+
+
+    <!-- ================= JAVASCRIPT ================= -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

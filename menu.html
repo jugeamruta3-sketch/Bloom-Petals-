@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bouquets | Bloom&Petal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container navbar">
+            <a class="logo" href="index.html">Bloom<span>&</span>Petal</a>
+            <button class="icon-btn menu-toggle" aria-label="Open menu">☰</button>
+            <nav class="nav-links">
+                <a class="" href="index.html">Home</a>
+                <a class="active" href="menu.html">Bouquets</a>
+                <a class="" href="cart.html">Cart <span data-cart-count></span></a>
+                <a class="" href="login.html">Login</a>
+            </nav>
+            <div class="nav-actions">
+                <a class="btn btn-primary btn-small" href="registration.html">Create account</a>
+            </div>
+        </div>
+    </header>
+
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <span class="eyebrow">Bloom collection</span>
+                <h1>Our Bouquets</h1>
+                <p>Choose a bouquet for every mood, celebration and little happy moment.</p>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container">
+                <div class="menu-grid">
+                    <article class="card">
+                        <div class="card-img"><img src="images/66.jpeg" alt="Pastel Dream"></div>
+                        <div class="card-body">
+                            <h3>Pastel Dream</h3>
+                            <p>Pink, lavender and cream tulips with delicate filler flowers.</p>
+                            <div class="price-row"><span class="price">₹1,499</span>
+                                <button class="btn btn-primary btn-small"
+                                    onclick="addToCart('Pastel Dream',1499,'assets/bouquet1.jpg')">Add to cart</button>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <div class="card-img"><img src="images/55.jpeg" alt="Sunny Smile"></div>
+                        <div class="card-body">
+                            <h3>Sunny Smile</h3>
+                            <p>Golden sunflowers, eucalyptus and soft green foliage.</p>
+                            <div class="price-row"><span class="price">₹1,299</span>
+                                <button class="btn btn-primary btn-small"
+                                    onclick="addToCart('Sunny Smile',1299,'assets/bouquet2.jpg')">Add to cart</button>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <div class="card-img"><img src="images/22.jpeg" alt="Ruby Roses"></div>
+                        <div class="card-body">
+                            <h3>Ruby Roses</h3>
+                            <p>Deep red roses surrounded by baby's breath and greenery.</p>
+                            <div class="price-row">
+                                <span class="price">₹1,799</span>
+                                <button class="btn btn-primary btn-small"
+                                    onclick="addToCart('Ruby Roses',1799,'assets/bouquet3.jpg')">Add to cart</button>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <div class="card-img"><img src="images/11.jpeg" alt="Colour Story"></div>
+                        <div class="card-body">
+                            <h3>Colour Story</h3>
+                            <p>A vibrant seasonal mix of daisies, asters and cheerful blooms.</p>
+                            <div class="price-row">
+                                <span class="price">₹1,599</span>
+                                <button class="btn btn-primary btn-small"
+                                    onclick="addToCart('Colour Story',1599,'assets/bouquet4.jpg')">Add to cart</button>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <div class="card-img"><img src="images/33.jpeg" alt="Lavender Blush"></div>
+                        <div class="card-body">
+                            <h3>Lavender Blush</h3>
+                            <p>A softer tulip arrangement for calm and thoughtful gifting.</p>
+                            <div class="price-row">
+                                <span class="price">₹1,399</span>
+                                <button class="btn btn-primary btn-small"
+                                    onclick="addToCart('Lavender Blush',1399,'assets/bouquet1.jpg')">Add to
+                                    cart</button>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <div class="card-img"><img src="images/44.jpeg" alt="Garden Party"></div>
+                        <div class="card-body">
+                            <h3>Garden Party</h3>
+                            <p>A playful wildflower-inspired bouquet packed with colour.</p>
+                            <div class="price-row">
+                                <span class="price">₹1,699</span>
+                                <button class="btn btn-primary btn-small"
+                                    onclick="addToCart('Garden Party',1699,'assets/bouquet4.jpg')">Add to cart</button>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+        <div class="container footer-grid">
+
+
+            <!-- ================= BRAND ================= -->
+
+            <div class="footer-brand">
+
+                <a class="logo" href="index.html">
+                    Bloom<span>&</span>Petal
+                </a>
+
+                <p>
+                    Beautiful flowers, thoughtfully arranged
+                    for every special moment.
+                </p>
+
+
+                <!-- Social Icons -->
+
+                <div class="social-icons">
+
+                    <a href="#" aria-label="Instagram">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+
+                    <a href="#" aria-label="Facebook">
+                        <i class="bi bi-facebook"></i>
+                    </a>
+
+                    <a href="#" aria-label="Pinterest">
+                        <i class="bi bi-pinterest"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- ================= QUICK LINKS ================= -->
+
+            <div class="footer-column">
+
+                <h3>
+                    Quick Links
+                </h3>
+
+                <a href="index.html">
+                    Home
+                </a>
+
+                <a href="menu.html">
+                    Bouquets
+                </a>
+
+                <a href="cart.html">
+                    Cart
+                </a>
+
+                <a href="login.html">
+                    Login
+                </a>
+
+            </div>
+
+
+            <!-- ================= CUSTOMER CARE ================= -->
+
+            <div class="footer-column">
+
+                <h3>
+                    Customer Care
+                </h3>
+
+                <a href="#">
+                    Contact Us
+                </a>
+
+                <a href="#">
+                    Delivery Information
+                </a>
+
+                <a href="#">
+                    Privacy Policy
+                </a>
+
+                <a href="#">
+                    Terms & Conditions
+                </a>
+
+            </div>
+
+
+            <!-- ================= CONTACT ================= -->
+
+            <div class="footer-column">
+
+                <h3>
+                    Contact
+                </h3>
+
+                <p>
+                    <i class="bi bi-geo-alt"></i>
+                    Mumbai, India
+                </p>
+
+                <p>
+                    <i class="bi bi-envelope"></i>
+                    hello@bloomandpetal.com
+                </p>
+
+                <p>
+                    <i class="bi bi-telephone"></i>
+                    +91 98765 43210
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- ================= FOOTER BOTTOM ================= -->
+
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 Bloom&Petal.
+                All rights reserved.
+            </p>
+
+            <p>
+                Made with
+                <i class="bi bi-heart-fill"></i>
+                for flower lovers.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- ================= TOAST ================= -->
+
+    <div class="toast"></div>
+
+
+    <!-- ================= JAVASCRIPT ================= -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
